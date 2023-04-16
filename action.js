@@ -16,8 +16,8 @@ function Creation() {
             ${document.querySelector("#newtask input").value}
         </span>
         <div class="buttons">
-            <button class="check"><img src="check.png"></button>
-            <button class="delete"><img src="delete.png"></button>
+            <img class="check" src="check.png"/>
+            <img class="delete" img src="delete.png"/>
         </div>
        
     </div>
@@ -32,8 +32,7 @@ function check() {
   for (var i = 0; i < current_tasks.length; i++) {
     current_tasks[i].onclick = function () {
       //this.parentNode.parentNode.style.borderColor = "#4be639";
-      this.parentNode.parentNode.style.border = "3px solid #4be639";
-      this.parentNode.parentNode.style.color = "#4be639";
+      this.parentNode.parentNode.style.backgroundColor = "#d1d1d1";
     };
   }
 }
