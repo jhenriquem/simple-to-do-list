@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   background: #066acd;
@@ -43,42 +43,42 @@ body {
   outline: none;
   border-color: #0d75ec;
 }
-#newtask img,
-.buttons img {
+#newtask img {
   cursor: pointer;
   padding-right: 5px;
 }
 #tasks {
   border-radius: 10px;
   width: 100%;
-  position: relative;
   background-color: #ffffff;
   padding: 30px 20px;
   margin-top: 10px;
 }
 /*===================================== */
 .task {
-  border-radius: 5px;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: space-between;
-  min-height: 50px;
   overflow: auto;
-  max-height: 125px;
-  border: 2px solid #d1d3d4;
+  border-bottom: 2px solid #fafafa;
   color: #111111;
-  margin-bottom: 8px;
+  margin: 0.5rem 1rem;
   transition: 0.3s;
-  padding: 5px 5px;
+  padding: 5px;
   display: flex;
 }
-.buttons {
-  padding: 5px;
+.delete {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 #taskname {
-  max-width: 85%;
+  width: 85%;
 }
-
+.check {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
 @media (max-width: 500px) {
   .container {
     min-width: 100%;
